@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Terminal Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="terminal">
+    <div class="terminal-header">
+      <div class="dot red"></div>
+      <div class="dot yellow"></div>
+      <div class="dot green"></div>
+
+      <div class="terminal-title">
+        jeff@portfolio-terminal
+      </div>
+    </div>
+
+    <div class="terminal-body" id="terminalBody">
+
+      <div class="ascii">
+      _ _____ _____ _____ _  _   ____  _______     __
+     | | ____|  ___|  ___| || | |  _ \| ____\ \   / /
+  _  | |  _| | |_  | |_  | || |_| | | |  _|  \ \ / /
+ | |_| | |___|  _| |  _| |__   _| |_| | |___  \ V /
+  \___/|_____|_|   |_|      |_| |____/|_____|  \_/
+
+      </div>
+
+      <div class="line">Initializing terminal portfolio...</div>
+      <div class="line">Loading modules...</div>
+      <div class="line">Access granted.</div>
+      <div class="line">Type 'help' to see available commands.</div>
+
+      <div id="output"></div>
+
+      <div class="input-line">
+        <span class="prompt">jeff@portfolio:~$</span>
+
+        <input
+          type="text"
+          id="commandInput"
+          placeholder="type a command..."
+          autofocus
+        />
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
