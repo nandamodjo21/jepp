@@ -11,15 +11,15 @@ const commands = {
 - clear`,
 
   about:
-    'Hi, I am Jeff. A developer focused on networking, backend systems, and modern web development.',
+    'I am a developer with 2 years of experience in the tech industry, focusing on building high-performance, user-friendly, and well-designed mobile applications. My expertise includes various mobile technologies such as Flutter, Dart, and Native Android Java. Driven by a passion for learning and self-improvement, I am motivated to create innovative and impactful digital solutions. As the tech landscape continuously evolves, I keep up with the latest trends and advancements to deliver the best results in every project I undertake.',
 
   skills:
-    'HTML, CSS, JavaScript, React, Node.js, Linux, Networking, MikroTik',
+    'Flutter, dart, Android Native(Java), PHP/laravel or Codeigniter, SvelteKit, Node.js, Express.js,Typescript, REST APIs,Git, VS Code, Android Studio, Cloud Hosting/VPS',
 
   projects:
-    `1. RT/RW Net Management System
-2. Terminal Portfolio Website
-3. Network Monitoring Dashboard`,
+    `1. SPP Q'kiddies
+2. Lapor Dewan
+3. CSAI CRM WhatsApp`,
 
   contact:
     'Email: your@email.com\nGitHub: github.com/yourusername',
